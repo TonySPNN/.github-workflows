@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Ping Render App
         run: |
-          curl -s https://https://tony-p9k2.onrender.com/dev/null
+          curl -s https://tony-p9k2.onrender.com > /dev/null
           echo "Ping successful!"
